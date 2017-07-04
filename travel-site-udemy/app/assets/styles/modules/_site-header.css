@@ -29,6 +29,7 @@
 
   &__logo__graphic {
     text-indent: -9999px;
+    height: 59px; /* FIX LOGO - caused by automatic sprite generation*/ 
   }
 
   &__menu-icon {
