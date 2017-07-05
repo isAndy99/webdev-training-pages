@@ -8,7 +8,4 @@ import $ from 'jquery';
   new RevealOnScroll($('.feature-item'), '85%');
   new RevealOnScroll($('.testimonial'), '60%');
   var stickyHeader = new StickyHeader();
-  
-$(function() {
   var modal = new Modal();
-});
