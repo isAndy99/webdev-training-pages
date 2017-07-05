@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 class Modal {
   constructor() {
-    this.openModalButton = $('open-modal');
+    this.openModalButton = $('.open-modal');
     this.modal = $('.modal');
     this.closeModalButton = $('.modal__close');
     this.events();
@@ -26,7 +26,6 @@ class Modal {
   }
 
   openModal() {
-    console.log('OPEN MODAL');
     this.modal.addClass('modal--is-visible');
     return false; //so the browser does not automatically scroll back up
   }

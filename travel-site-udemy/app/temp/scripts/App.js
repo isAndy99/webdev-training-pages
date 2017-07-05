@@ -11743,7 +11743,7 @@ var Modal = function () {
   function Modal() {
     _classCallCheck(this, Modal);
 
-    this.openModalButton = (0, _jquery2.default)('open-modal');
+    this.openModalButton = (0, _jquery2.default)('.open-modal');
     this.modal = (0, _jquery2.default)('.modal');
     this.closeModalButton = (0, _jquery2.default)('.modal__close');
     this.events();
@@ -11771,7 +11771,6 @@ var Modal = function () {
   }, {
     key: 'openModal',
     value: function openModal() {
-      console.log('OPEN MODAL');
       this.modal.addClass('modal--is-visible');
       return false; //so the browser does not automatically scroll back up
     }
